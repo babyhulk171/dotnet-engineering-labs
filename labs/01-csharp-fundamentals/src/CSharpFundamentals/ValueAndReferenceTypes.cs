@@ -1,15 +1,13 @@
-using System.Runtime.InteropServices.Swift;
-
 namespace CSharpFundamentals
 {
-    public record AnotherPerson(string Name, int Age);
+    public record PersonRecord(string Name, int Age);
     public class Person
     {
         public Person(string name)
         {
-            this.name = name;
+            this.Name = name;
         }
-        public string name { get; set; }
+        public string Name { get; set; }
     }
     public struct Coords
     {
@@ -37,11 +35,14 @@ namespace CSharpFundamentals
 
             // experiment 2
             Coords c = new Coords(1, 2);
-            c.X = c.Y;
-            c.Y = 4;
+            Coords d = new Coords(3, 4);
+            c = d;
+            d.Y = 5;
             Console.WriteLine();
             Console.WriteLine(c.X);
             Console.WriteLine(c.Y);
+            Console.WriteLine(d.X);
+            Console.WriteLine(d.Y);
 
             // I expect the values to be the same
             // they were not
@@ -50,16 +51,16 @@ namespace CSharpFundamentals
             Person p = new Person("pablo");
             Person j = new Person("jessica");
             p = j;
-            j.name = "maiara";
+            j.Name = "maiara";
             Console.WriteLine();
-            Console.WriteLine(p.name);
-            Console.WriteLine(j.name);
+            Console.WriteLine(p.Name);
+            Console.WriteLine(j.Name);
 
             // I expected the names to change because the assign of classes is by reference
             // correct
 
-            AnotherPerson ap = new("pablo", 23);
-            AnotherPerson jp = ap with {Name = "jessica"};
+            PersonRecord ap = new("pablo", 23);
+            PersonRecord jp = ap with {Name = "jessica"};
             Console.WriteLine();
             Console.WriteLine(ap.Name);
             Console.WriteLine(jp.Name);
