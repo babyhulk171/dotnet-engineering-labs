@@ -13,6 +13,8 @@ namespace CSharpFundamentals
         {
             var currentState = EnemyState.Thinking;
             if (currentState == EnemyState.Thinking) Console.WriteLine("the enemy is thinking.");
+
+            // Records vs Class: 
         }
     }
 }
