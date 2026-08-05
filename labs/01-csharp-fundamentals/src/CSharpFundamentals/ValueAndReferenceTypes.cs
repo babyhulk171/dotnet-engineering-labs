@@ -21,7 +21,7 @@ namespace CSharpFundamentals
     }
     public class ValueAndReferenceTypes
     {
-        public static void Main()
+        public static void Run()
         {
             // experiment 1
             int a = 1;
