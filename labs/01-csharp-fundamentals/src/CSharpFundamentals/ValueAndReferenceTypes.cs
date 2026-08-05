@@ -65,7 +65,7 @@ namespace CSharpFundamentals
             Console.WriteLine(ap.Name);
             Console.WriteLine(jp.Name);
 
-            // I expect the names to change with the "with" keyword
+            // // I expect ap.Name to remain "pablo" and jp.Name to be "jessica".
             // Correct
         }
     }

@@ -7,6 +7,6 @@ The values were not the same. The struct creates a independent copy.
 ### What happened when I copied a class reference?
 Names changed because the assign of classes copy the reference.
 ### How did the record behave?
-Record is immutable but I copy it with the "with" keyword
+I used the "with" keyword to create a copy of the record without destroying the original values. The original record remained unchanged.
 ### Current understanding
-By value will not store the "address" of the original variable used, thus not changing the original. By reference will store this "address" changing the original value used, not the original object.
+By value will not store the reference of the original object used, thus not changing the original. By reference will store this reference changing a copied object, not the original object.
