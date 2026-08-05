@@ -12,4 +12,4 @@ I used the "with" keyword to create a copy of the record without destroying the 
 By value will not store the reference of the original object used, thus not changing the original. By reference will store this reference changing the assigned object.
 
 ## Record vs Class explanation
-I know that two record class era equal if they are equal in value, unlike Classes that uses reference equality. I would use a record to store a JSON response from API, because I don't want to change these values, but if I need to alter something, I can alter copying in another variable using "with". I would choose a regular class if I need a more complex custom object or implement relations like inheritance.
+I know that two record class era equal if they are equal in value, unlike Classes that uses reference equality. I would use a record to store a JSON response from API, because I don't want to change these values, but if I need to alter something, I can alter copying in another variable using "with". I would choose a regular class if object identy is important and a changin lifecycle is important, records if I need to compare by value or I'm dealing with data.
