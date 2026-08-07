@@ -62,8 +62,8 @@ By February 2028, I should be able to take a written requirement and independent
 
 | Activity | Hours |
 |---|---:|
-| Building projects | 8 |
-| LeetCode and data structures | 6 |
+| Building projects and practical exercises | 10 |
+| LeetCode and data structures | 4 |
 | Reading books and documentation | 3 |
 | English communication practice | 2 |
 | Weekly review and planning | 1 |
@@ -72,19 +72,19 @@ A possible distribution:
 
 | Day | Sprint 1 | Sprint 2 | Sprint 3 | Sprint 4 | Sprint 5 |
 |---|---|---|---|---|---|
-| Monday | LeetCode | LeetCode review | Project | Project | Documentation |
-| Tuesday | Project | Project | C#/.NET exercise | English | Reading |
-| Wednesday | LeetCode | LeetCode review | Project | Project | Testing |
-| Thursday | LeetCode | Project | Project | English | Weekly review |
+| Monday | LeetCode | Project/lab | Project/lab | Project/lab | Documentation |
+| Tuesday | LeetCode | Project/lab | Project/lab | English | Reading |
+| Wednesday | LeetCode | Project/lab | Project/lab | Testing/practical exercise | Documentation |
+| Thursday | LeetCode | Project/lab | Project/lab | English | Weekly review |
 
-Study in one-hour sprints with meaningful breaks. Avoid running all sprints continuously.
+Study in one-hour sprints with meaningful breaks. Avoid running all sprints continuously. Practical coding includes project features, focused C#/.NET labs, tests, debugging, refactoring, and small CLI/API exercises. LeetCode is supporting interview practice and must not displace implementation work for the current roadmap phase.
 
 ### Difficult 10-hour week
 
 | Activity | Hours |
 |---|---:|
-| Main project | 4 |
-| LeetCode | 3 |
+| Main project or practical lab | 5 |
+| LeetCode | 2 |
 | Documentation or book | 1 |
 | English | 1 |
 | Review and planning | 1 |
@@ -93,7 +93,7 @@ During difficult weeks:
 
 - Do not begin a new technology
 - Continue the current feature
-- Review previously solved algorithm problems
+- Prefer revisiting previously solved algorithm problems over adding several new ones
 - Complete one small pull request
 - Preserve the study habit instead of overcompensating later
 
@@ -528,6 +528,8 @@ Do not restrict applications to jobs where every listed requirement is already s
 
 ## 4. First 12 Weeks
 
+During these weeks, algorithm bullets identify the pattern to practise, not a quota of problems. Use at most one new LeetCode problem per study day, and replace some new-problem sessions with revisits when appropriate. Practical labs and project implementation remain the main workload.
+
 ### Week 1 — Environment and Workflow
 
 - Create a public `dotnet-engineering-labs` repository
@@ -537,7 +539,7 @@ Do not restrict applications to jobs where every listed requirement is already s
 - Open a pull request for every exercise group
 - Review value types and reference types
 - Practise enums and records
-- Solve array and hash-map problems
+- Practise arrays and hash maps within the weekly LeetCode allocation
 - Record a two-minute English introduction
 
 ### Week 2 — Collections and Generics
@@ -547,7 +549,7 @@ Do not restrict applications to jobs where every listed requirement is already s
 - Write generic helper methods
 - Compare arrays, lists, dictionaries, and sets
 - Write unit tests for all exercises
-- Practise hash-map and set LeetCode problems
+- Practise hash maps and sets within the weekly LeetCode allocation
 
 ### Week 3 — Lambdas and LINQ
 
@@ -555,7 +557,7 @@ Do not restrict applications to jobs where every listed requirement is already s
 - Use `Where`, `Select`, `Any`, `All`, `OrderBy`, `GroupBy`, and `ToDictionary`
 - Rewrite imperative collection code using LINQ
 - Explain when the LINQ version is less readable
-- Practise two-pointer problems
+- Practise the two-pointer pattern within the weekly LeetCode allocation
 
 ### Week 4 — Errors and Test Design
 
@@ -564,7 +566,7 @@ Do not restrict applications to jobs where every listed requirement is already s
 - Test exceptions and invalid inputs
 - Learn facts versus theories in xUnit
 - Write edge-case lists before implementation
-- Practise sliding-window problems
+- Practise the sliding-window pattern within the weekly LeetCode allocation
 - Complete the first phase checkpoint
 
 ### Week 5 — Object Design
@@ -592,7 +594,7 @@ Do not restrict applications to jobs where every listed requirement is already s
 - Add cancellation
 - Handle timeouts and non-success responses
 - Add an optional exchange-rate or categorization integration
-- Practise binary-search problems
+- Practise binary search within the weekly LeetCode allocation
 
 ### Week 8 — Complete Project 1
 
@@ -776,14 +778,15 @@ Features:
 
 ## 6. LeetCode Curriculum
 
-Six hours per week is acceptable because algorithm interviews are part of the target and the practice is enjoyable. The goal is not raw problem count. The goal is recognition, retention, and explanation.
+Allocate approximately four hours per normal week. Algorithm interviews remain relevant, but practical C#/.NET implementation has higher priority. The goal is recognition, retention, and explanation rather than accumulating problem count.
 
 ### Weekly algorithm routine
 
-- Two hours: new problems
-- Two hours: previously solved problems without notes
-- One hour: study one pattern
-- One hour: timed problem or verbal explanation
+- Maximum one new problem per study day
+- Usually two to four new problems in a normal week, depending on difficulty and revisit needs
+- Use remaining algorithm time for previously solved problems, reimplementation without notes, pattern review, and verbal complexity explanation
+- A hard problem may consume the whole algorithm sprint; do not compensate by adding extra new problems later that day
+- If practical project work is behind, reduce new problems before reducing implementation time
 
 Use this help sequence:
 
@@ -837,8 +840,8 @@ Use this help sequence:
 
 ### Target by February 2028
 
-- Approximately 150–180 unique problems
-- Most important problems solved at least twice
+- Approximately 100–130 well-chosen unique problems
+- Most important problems solved at least twice, with revisits prioritized over inflating the unique-problem count
 - Majority of later problems at medium difficulty
 - Ability to explain time and space complexity verbally
 - Ability to recognize common patterns without immediately asking AI

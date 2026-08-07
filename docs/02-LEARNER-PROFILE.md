@@ -143,7 +143,7 @@ The roadmap is successful when I can independently create complete projects that
 - Four weekdays, mainly at night.
 - Preferred session length: one-hour sprints, with more than one sprint per study day.
 - Preferred learning order:
-  1. Building projects
+  1. Building projects and practical coding
   2. Books
   3. Official documentation and written tutorials
   4. LeetCode
@@ -159,7 +159,8 @@ The roadmap is successful when I can independently create complete projects that
   - Boredom
   - Lack of visible progress
 - Weekly reviews and measurable checkpoints are helpful.
-- Wants six hours of LeetCode per week.
+- Prefers approximately four hours of LeetCode and data-structure practice per week, with at most one new problem per study day and some sessions reserved for revisits.
+- Wants practical coding, labs, tests, debugging, and project implementation to receive more study time than LeetCode.
 - Wants explicit restrictions on AI usage.
 - Prefers several independent projects, though a main project may be maintained if it remains interesting.
 - Project interests: education, personal finance, and developer tools.

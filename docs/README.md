@@ -20,7 +20,6 @@ Project-only memory keeps the study workspace focused on its own chats and sourc
    - `01-ROADMAP.md`
    - `02-LEARNER-PROFILE.md`
    - `03-STUDY-AND-ENGINEERING-WORKFLOW.md`
-   - `04-PROGRESS-TRACKER.md`
    - `05-RESOURCE-INDEX.md`
 6. Move the existing roadmap conversation into the project.
 7. Create separate chats for distinct workflows.
@@ -40,12 +39,12 @@ Do not use one chat forever. Keep one continuous chat for the active weekly spri
 ## Source-of-truth rule
 
 - GitHub is the source of truth for code, issues, branches, commits, and pull requests.
+- GitHub Issues are the sole source of truth for study progress, current tasks, completed work, and blockers.
 - `01-ROADMAP.md` is the source of truth for the learning plan.
-- `04-PROGRESS-TRACKER.md` is the source of truth for progress summaries.
-- Chat conversations are coaching and decision history, not the canonical copy of code.
+- Chat conversations are coaching and decision history, not the canonical copy of code or progress.
 
 ## Updating project sources
 
-The uploaded files are snapshots. When the roadmap, learner profile, workflow, or progress tracker changes materially, replace or re-upload the relevant source.
+The uploaded files are snapshots. When the roadmap, learner profile, workflow, or resource index changes materially, replace or re-upload the relevant source. Progress itself is maintained in GitHub Issues rather than in a separate uploaded tracker.
 
 Do not upload a complete repository archive after every commit. Provide the current public GitHub URL when requesting a code or workflow review.

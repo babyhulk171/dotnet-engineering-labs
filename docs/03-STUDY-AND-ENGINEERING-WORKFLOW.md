@@ -6,8 +6,8 @@
 
 | Activity | Hours |
 |---|---:|
-| Projects and practical exercises | 8 |
-| LeetCode and data structures | 6 |
+| Projects and practical exercises | 10 |
+| LeetCode and data structures | 4 |
 | Books and official documentation | 3 |
 | English communication | 2 |
 | Review and planning | 1 |
@@ -16,13 +16,13 @@
 
 | Activity | Hours |
 |---|---:|
-| Current project or lab | 4 |
-| LeetCode review and practice | 3 |
+| Current project or lab | 5 |
+| LeetCode review and practice | 2 |
 | Documentation or book | 1 |
 | English | 1 |
 | Review and planning | 1 |
 
-During a difficult week, do not start a major new technology. Finish a small existing task and preserve continuity.
+During a difficult week, do not start a major new technology. Finish a small existing task and preserve continuity. Practical implementation remains the priority; LeetCode should not displace the current project or lab.
 
 ## Sprint structure
 
@@ -34,6 +34,14 @@ Suggested format:
 2. 40 minutes — independent study or implementation.
 3. 10 minutes — build, test, and inspect results.
 4. 5 minutes — note what was learned and define the next action.
+
+## Progress tracking
+
+- GitHub Issues are the sole source of truth for study progress.
+- Use the current roadmap/week issue checklist, acceptance criteria, and issue comments to record completed work, remaining tasks, blockers, and review notes.
+- Before reporting current progress or deciding what is next, inspect the current GitHub Issues rather than relying on a separate progress-tracker document.
+- When a task is completed, update the relevant issue rather than maintaining a duplicate progress file.
+- Weekly and phase reviews may summarize progress in conversation, but durable progress updates belong in GitHub Issues.
 
 ## Git workflow
 
@@ -137,6 +145,10 @@ Before asking for substantial help, record:
 
 ## LeetCode workflow
 
+Default algorithm allocation is approximately four hours per normal week. Use at most one new problem per study day. A LeetCode session may instead be used for a scheduled revisit, reimplementation, pattern review, or verbal complexity explanation.
+
+Do not chain multiple new problems in one study day by default. When the planned algorithm work is complete, return to the current practical exercise or project rather than increasing problem count.
+
 1. Attempt independently for up to 45 minutes.
 2. Record attempted approaches.
 3. Request one hint.
@@ -146,6 +158,13 @@ Before asking for substantial help, record:
 7. State time and space complexity.
 8. Revisit after roughly two days.
 9. Revisit again after one to two weeks.
+
+### Problem completion rule
+
+- When I report that I implemented an optimized version of the current LeetCode problem, mark that problem as solved/completed.
+- Do not require an additional understanding check before marking it complete.
+- Complexity explanations and code review may still be discussed when useful, but they do not block completion once an optimized version has been reported.
+- Scheduled revisits remain part of the LeetCode workflow even after the problem is marked solved.
 
 ## English workflow
 
