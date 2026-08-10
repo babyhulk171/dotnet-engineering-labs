@@ -30,7 +30,7 @@ namespace CSharpFundamentals
         }
     }
 
-    public class ShowTaskDescription<T> where T : ITask // Only accept classes that implement ITask
+    public class ShowTaskDescription<T> where T : ITask // Only accept T that implement ITask
     {
         public void Show(T task)
         {
