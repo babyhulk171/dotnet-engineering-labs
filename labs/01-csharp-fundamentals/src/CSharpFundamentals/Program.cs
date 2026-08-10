@@ -4,6 +4,7 @@ public class Program
 {
     public static void Main()
     {
-        EnumsRecords.Run();
+        Collections c = new Collections();
+        c.Run();
     }
 }
